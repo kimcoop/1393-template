@@ -1,0 +1,107 @@
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+    * {
+      margin: 0;
+    }
+    html, body {
+      height: 100%;
+    }
+    
+    body {
+      padding-top: 20px;
+      padding-bottom: 60px;
+      color: #5a5a5a;
+      font-family: "Maven Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .container > hr {
+      margin: 20px 0 25px;
+    }
+
+    .masthead {
+      max-width: 1000px;
+      padding-bottom: 20px;
+    }
+
+    h1,h2,h3 {
+      font-family: 'Sue Ellen Francisco', cursive;
+    }
+
+    a {
+      color: #57527E;
+      font-weight: bold;
+    }
+
+    a:active, a:hover {
+      text-decoration: none;
+      color: #CFCFE8;
+    }
+
+    .muted {
+      color: #CFCFE8;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-left {
+      text-align: left;
+    }
+
+    .article {
+      padding-top: 70px;
+    }
+
+    .article-heading {
+      /*color: #CFCFE8;*/
+      color: #57527E;
+    }
+
+    .nav li.active a {
+      background: #CFCFE8;
+    }
+    .nav li.active a:hover, .nav li a:hover {
+      background: #57527E;
+      color: #fff;
+      transition: background 0.5s, color 0.5s;
+      -webkit-transition: background 0.5s, color 0.5s;
+    }
+    
+
+    
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .article {
+        height: auto;
+        padding: 0;
+      }
+      .article-image.pull-left,
+      .article-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .article-heading {
+        font-size: 30px;
+      }
+      .article .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
